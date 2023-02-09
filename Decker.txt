@@ -1,0 +1,390 @@
+Script started on 2023-02-09 09:34:48+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$  [K[7mgit config --global user.name "FIRST_NAME LAST_NAME"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgit config --global user.name "FIRST_NAME LAST_NAME[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Komamarba
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git config --global user.name omamarba[K[K[K[K[K[K[K[K[K[K[K[K[Kemail omamarba@ucm,[K.es
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git config --global user.email omamarba@ucm.es[8Pname omamarba[C"omamarba[C[C[C[C[C[C[C[C"
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git config --global user.name "omamarba"email omamarba@ucm.es"omamarba@ucm.es[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ cat[K [Kt .git/config
+[?2004lcat: .git/config: No existe el archivo o el directorio
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ cat .git/config[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit config user.name "omamab[Krba"
+[?2004lfatal: no en un directorio git
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git config user.name "omamarba"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ke,[Kmail "omamarb[Kba@yuc[K[K[Kucm.es"
+[?2004lfatal: no en un directorio git
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git config user.email "omamarba@ucm.es"[8Pname "omamarba"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pcat .git/config
+[?2004lcat: .git/config: No existe el archivo o el directorio
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ cd
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls
+[?2004l01.py       [0m[01;34mEscritorio[0m  [01;34msnap[0m                           Untitled5.ipynb
+02.py       [01;34mImágenes[0m    [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m  Untitled.ipynb
+03.py       [01;34mMúsica[0m      [01;34mssh[0m                            [01;34mvenv[0m
+04.py       os          Untitled1.ipynb                [01;34mVídeos[0m
+Decker.txt  [01;34mPlantillas[0m  Untitled2.ipynb
+[01;34mDescargas[0m   [01;34mPúblico[0m     Untitled3.ipynb
+[01;34mDocumentos[0m  [40;31;01mpyspark[0m     Untitled4.ipynb
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ emacs 0-1[K[K1[K1.py > decker[K[K[K[K[K[K[K 01.[K[K1.txt
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ emacs 01.py
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git clone ^[[200~git@github.com:omamarba/prpa2223-2.git~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K [7mgit@github.com:omamarba/prpa2223-2.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:omamarba/prpa2223-2.git
+[?2004lClonando en 'prpa2223-2'...
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate de que tengas los permisos de acceso correctos
+y que el repositorio exista.
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git clone git@github.com:omamarba/prpa2223-2.git
+[?2004lClonando en 'prpa2223-2'...
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate de que tengas los permisos de acceso correctos
+y que el repositorio exista.
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git clone git@github.com:omamarba/prpa2223-2.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs 01.py[K > 01.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcdat .git/configgit config user.email "omamarba@ucm.es"[8Pname "omamarba"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pcat .git/configgit config --global user.email "omamarba@ucm.es"[8Pname "omamarba"
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git config --global user.name "omamarba"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clone git@github.com:omamarba/prpa2223-2.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ponfig --global user.name "omamarba"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clone git@github.com:omamarba/prpa2223-2.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs 01.py[K > 01.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcdat .git/configgit config user.email "omamarba@ucm.es"[8Pname "omamarba"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pcat .git/configgit config --global user.email "omamarba@ucm.es"
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git config --global user.email "omamarba@ucm.es"[8Pname "omamarba"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clone git@github.com:omamarba/prpa2223-2.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs 01.py[K > 01.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcdat .git/configgit config user.email "omamarba@ucm.es"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Pcat .git/configd[Klsemacs 01.py > 01.txt[Kgit clone git@github.com:omamarba/prpa2223-2.git
+[?2004lClonando en 'prpa2223-2'...
+git@github.com: Permission denied (publickey).
+fatal: No se pudo leer del repositorio remoto.
+
+Por favor asegúrate de que tengas los permisos de acceso correctos
+y que el repositorio exista.
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls -al
+[?2004ltotal 294136
+drwxr-x--- 32 alumno alumno      4096 feb  9 09:47 [0m[01;34m.[0m
+drwxr-xr-x  5 root   root        4096 may  5  2022 [01;34m..[0m
+-rw-rw-r--  1 alumno alumno      1135 feb  9 09:31 01.py
+-rw-rw-r--  1 alumno alumno         0 feb  9 09:39 01.txt
+-rw-rw-r--  1 alumno alumno      1370 feb  9 09:31 02.py
+-rw-rw-r--  1 alumno alumno      1454 feb  9 09:31 03.py
+-rw-rw-r--  1 alumno alumno      1573 feb  9 09:31 04.py
+-rw-------  1 alumno alumno      3186 may 24  2022 .bash_history
+-rw-r--r--  1 alumno alumno       220 abr 26  2022 .bash_logout
+-rw-r--r--  1 alumno alumno      3771 may 23  2022 .bashrc
+-rw-r--r--  1 alumno alumno      3851 abr 26  2022 .bashrc~
+drwx------ 18 alumno alumno      4096 feb  9 09:37 [01;34m.cache[0m
+drwx------ 20 alumno alumno      4096 feb  9 09:27 [01;34m.config[0m
+-rw-------  1 alumno alumno         0 may 24  2022 .dbshell
+-rw-rw-r--  1 alumno alumno      4096 feb  9 09:43 Decker.txt
+drwxr-xr-x  5 alumno alumno      4096 feb  9 09:33 [01;34mDescargas[0m
+-rw-r--r--  1 alumno alumno        25 may 10  2022 .dmrc
+drwxr-xr-x  4 alumno alumno      4096 oct 26 18:04 [01;34mDocumentos[0m
+drwx------  2 alumno alumno      4096 may 23  2022 [01;34m.emacs.d[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 28  2022 [01;34mEscritorio[0m
+drwxrwxr-x  2 alumno alumno      4096 abr 26  2022 [01;34m.ghc[0m
+-rw-rw-r--  1 alumno alumno        49 feb  9 09:47 .gitconfig
+drwx------  2 alumno alumno      4096 feb  9 09:37 [01;34m.gnupg[0m
+drwxr-xr-x  3 alumno alumno      4096 may 24  2022 [01;34mImágenes[0m
+drwxrwxr-x  2 alumno alumno      4096 may 23  2022 [01;34m.ipynb_checkpoints[0m
+drwxrwxr-x  5 alumno alumno      4096 may 23  2022 [01;34m.ipython[0m
+drwxrwxr-x  3 alumno alumno      4096 abr 26  2022 [01;34m.julia[0m
+drwxrwxr-x  2 alumno alumno      4096 abr 26  2022 [01;34m.jupyter[0m
+drwxrwxr-x  2 alumno alumno      4096 abr 26  2022 [01;34m.keras[0m
+drwx------  3 alumno alumno      4096 abr 26  2022 [01;34m.local[0m
+drwx------  3 alumno alumno      4096 may 24  2022 [01;34m.mongodb[0m
+-rw-------  1 alumno alumno         0 may 24  2022 .mongorc.js
+drwx------  3 alumno alumno      4096 feb  9 09:37 [01;34m.mozilla[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 26  2022 [01;34mMúsica[0m
+-rw-r--r--  1 root   root           0 abr 26  2022 os
+drwx------  3 alumno alumno      4096 abr 26  2022 [01;34m.pki[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 26  2022 [01;34mPlantillas[0m
+-rw-r--r--  1 alumno alumno       807 abr 26  2022 .profile
+drwxr-xr-x  2 alumno alumno      4096 abr 26  2022 [01;34mPúblico[0m
+lrwxrwxrwx  1 root   root          25 abr 28  2022 [40;31;01mpyspark[0m -> [40;31;01m/opt/spark/python/pyspark[0m
+-rw-------  1 alumno alumno       315 may 23  2022 .python_history
+drwxrwxr-x  6 alumno alumno      4096 abr 26  2022 [01;34m.sage[0m
+-rw-------  1 alumno alumno         0 abr 26  2022 .scala_history
+drwx------  9 alumno alumno      4096 abr 28  2022 [01;34msnap[0m
+-rw-r--r--  1 root   root   300971569 ene 20  2022 [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m
+drwx------  2 alumno alumno      4096 may 23  2022 [01;34m.ssh[0m
+drwxrwxr-x  3 alumno alumno      4096 feb  9 09:33 [01;34mssh[0m
+drwxrwxr-x  3 alumno alumno      4096 abr 26  2022 [01;34m.theano[0m
+drwx------  6 alumno alumno      4096 feb  9 09:37 [01;34m.thunderbird[0m
+-rw-rw-r--  1 alumno alumno        72 abr 26  2022 Untitled1.ipynb
+-rw-rw-r--  1 alumno alumno        72 abr 26  2022 Untitled2.ipynb
+-rw-rw-r--  1 alumno alumno        72 abr 26  2022 Untitled3.ipynb
+-rw-rw-r--  1 alumno alumno        72 abr 27  2022 Untitled4.ipynb
+-rw-rw-r--  1 alumno alumno       766 may 23  2022 Untitled5.ipynb
+-rw-rw-r--  1 alumno alumno        72 abr 26  2022 Untitled.ipynb
+drwxr-xr-x  5 root   root        4096 abr 26  2022 [01;34mvenv[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 26  2022 [01;34mVídeos[0m
+-rw-------  1 alumno alumno       104 feb  9  2023 .Xauthority
+drwx------  2 alumno alumno      4096 abr 26  2022 [01;34m.xournal[0m
+-rw-------  1 alumno alumno       542 feb  9  2023 .xsession-errors
+-rw-------  1 alumno alumno       542 nov 16 18:53 .xsession-errors.old
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls -al .ssh/
+[?2004ltotal 12
+drwx------  2 alumno alumno 4096 may 23  2022 [0m[01;34m.[0m
+drwxr-x--- 32 alumno alumno 4096 feb  9 09:47 [01;34m..[0m
+-rw-r--r--  1 alumno alumno  412 feb  9 09:43 known_hosts
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls Descargas/
+[?2004ldecker.pdf  [0m[01;34mfirefox.tmp[0m  [01;31mnotas.zip[0m  [01;31mssh.zip[0m  [01;34mtextext-0.4.1[0m
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ unzip Descargas/ssh.zip 
+[?2004lArchive:  Descargas/ssh.zip
+replace .ssh/known_hosts? [y]es, [n]o, [A]ll, [N]one, [r]ename: A
+  inflating: .ssh/known_hosts        
+  inflating: .ssh/id_rsa             
+  inflating: .ssh/id_rsa.pub         
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ (reverse-i-search)`': [K[25@c': unzip Des[7mc[27margas/ssh.zipl': git [7mcl[27mone git@github.com:omamarba/prpa2223-2.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@o': git [7mclo[27m[7P]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ git clo
+[?2004lClonando en 'prpa2223-2'...
+The authenticity of host 'github.com (140.82.121.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Recibiendo objetos:  33% (1/3)Recibiendo objetos:  66% (2/3)Recibiendo objetos: 100% (3/3)Recibiendo objetos: 100% (3/3), listo.
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls -al
+[?2004ltotal 294148
+drwxr-x--- 33 alumno alumno      4096 feb  9 09:55 [0m[01;34m.[0m
+drwxr-xr-x  5 root   root        4096 may  5  2022 [01;34m..[0m
+-rw-rw-r--  1 alumno alumno      1135 feb  9 09:31 01.py
+-rw-rw-r--  1 alumno alumno         0 feb  9 09:39 01.txt
+-rw-rw-r--  1 alumno alumno      1370 feb  9 09:31 02.py
+-rw-rw-r--  1 alumno alumno      1454 feb  9 09:31 03.py
+-rw-rw-r--  1 alumno alumno      1573 feb  9 09:31 04.py
+-rw-------  1 alumno alumno      3186 may 24  2022 .bash_history
+-rw-r--r--  1 alumno alumno       220 abr 26  2022 .bash_logout
+-rw-r--r--  1 alumno alumno      3771 may 23  2022 .bashrc
+-rw-r--r--  1 alumno alumno      3851 abr 26  2022 .bashrc~
+drwx------ 18 alumno alumno      4096 feb  9 09:37 [01;34m.cache[0m
+drwx------ 20 alumno alumno      4096 feb  9 09:27 [01;34m.config[0m
+-rw-------  1 alumno alumno         0 may 24  2022 .dbshell
+-rw-rw-r--  1 alumno alumno     12288 feb  9 09:55 Decker.txt
+drwxr-xr-x  5 alumno alumno      4096 feb  9 09:33 [01;34mDescargas[0m
+-rw-r--r--  1 alumno alumno        25 may 10  2022 .dmrc
+drwxr-xr-x  4 alumno alumno      4096 oct 26 18:04 [01;34mDocumentos[0m
+drwx------  2 alumno alumno      4096 may 23  2022 [01;34m.emacs.d[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 28  2022 [01;34mEscritorio[0m
+drwxrwxr-x  2 alumno alumno      4096 abr 26  2022 [01;34m.ghc[0m
+-rw-rw-r--  1 alumno alumno        49 feb  9 09:47 .gitconfig
+drwx------  2 alumno alumno      4096 feb  9 09:37 [01;34m.gnupg[0m
+drwxr-xr-x  3 alumno alumno      4096 may 24  2022 [01;34mImágenes[0m
+drwxrwxr-x  2 alumno alumno      4096 may 23  2022 [01;34m.ipynb_checkpoints[0m
+drwxrwxr-x  5 alumno alumno      4096 may 23  2022 [01;34m.ipython[0m
+drwxrwxr-x  3 alumno alumno      4096 abr 26  2022 [01;34m.julia[0m
+drwxrwxr-x  2 alumno alumno      4096 abr 26  2022 [01;34m.jupyter[0m
+drwxrwxr-x  2 alumno alumno      4096 abr 26  2022 [01;34m.keras[0m
+drwx------  3 alumno alumno      4096 abr 26  2022 [01;34m.local[0m
+drwx------  3 alumno alumno      4096 may 24  2022 [01;34m.mongodb[0m
+-rw-------  1 alumno alumno         0 may 24  2022 .mongorc.js
+drwx------  3 alumno alumno      4096 feb  9 09:37 [01;34m.mozilla[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 26  2022 [01;34mMúsica[0m
+-rw-r--r--  1 root   root           0 abr 26  2022 os
+drwx------  3 alumno alumno      4096 abr 26  2022 [01;34m.pki[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 26  2022 [01;34mPlantillas[0m
+-rw-r--r--  1 alumno alumno       807 abr 26  2022 .profile
+drwxrwxr-x  3 alumno alumno      4096 feb  9 09:55 [01;34mprpa2223-2[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 26  2022 [01;34mPúblico[0m
+lrwxrwxrwx  1 root   root          25 abr 28  2022 [40;31;01mpyspark[0m -> [40;31;01m/opt/spark/python/pyspark[0m
+-rw-------  1 alumno alumno       315 may 23  2022 .python_history
+drwxrwxr-x  6 alumno alumno      4096 abr 26  2022 [01;34m.sage[0m
+-rw-------  1 alumno alumno         0 abr 26  2022 .scala_history
+drwx------  9 alumno alumno      4096 abr 28  2022 [01;34msnap[0m
+-rw-r--r--  1 root   root   300971569 ene 20  2022 [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m
+drwx------  2 alumno alumno      4096 feb  9 09:55 [01;34m.ssh[0m
+drwxrwxr-x  3 alumno alumno      4096 feb  9 09:33 [01;34mssh[0m
+drwxrwxr-x  3 alumno alumno      4096 abr 26  2022 [01;34m.theano[0m
+drwx------  6 alumno alumno      4096 feb  9 09:37 [01;34m.thunderbird[0m
+-rw-rw-r--  1 alumno alumno        72 abr 26  2022 Untitled1.ipynb
+-rw-rw-r--  1 alumno alumno        72 abr 26  2022 Untitled2.ipynb
+-rw-rw-r--  1 alumno alumno        72 abr 26  2022 Untitled3.ipynb
+-rw-rw-r--  1 alumno alumno        72 abr 27  2022 Untitled4.ipynb
+-rw-rw-r--  1 alumno alumno       766 may 23  2022 Untitled5.ipynb
+-rw-rw-r--  1 alumno alumno        72 abr 26  2022 Untitled.ipynb
+drwxr-xr-x  5 root   root        4096 abr 26  2022 [01;34mvenv[0m
+drwxr-xr-x  2 alumno alumno      4096 abr 26  2022 [01;34mVídeos[0m
+-rw-------  1 alumno alumno       104 feb  9  2023 .Xauthority
+drwx------  2 alumno alumno      4096 abr 26  2022 [01;34m.xournal[0m
+-rw-------  1 alumno alumno       542 feb  9  2023 .xsession-errors
+-rw-------  1 alumno alumno       542 nov 16 18:53 .xsession-errors.old
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls -al ssh/
+[?2004ltotal 12
+drwxrwxr-x  3 alumno alumno 4096 feb  9 09:33 [0m[01;34m.[0m
+drwxr-x--- 33 alumno alumno 4096 feb  9 09:55 [01;34m..[0m
+drwx------  2 alumno alumno 4096 feb  9 09:51 [01;34m.ssh[0m
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ rm r[K-r ssh/
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ rm -r ssh/[1@ls -al[C[C[C[C[C[Kgit clone git@github.com:omamarba/prpa2223-2.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Punzip Descargas/ssh.zip [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:omamarba/prpa2223-2.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -al[K ssh/[1Prm -r[C[C[C[C[C[Kcd prpa2223-2/
+[?2004l[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git commit
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git .add
+[?2004lgit: '.add' no es un comando de git. Mira 'git --help'.
+
+El comando más similar es
+	add
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git add
+[?2004lNada especificado, nada agregado.
+[33mayuda: ¿Tal vez quisiste decir 'git add .'?[m
+[33mayuda: Desactiva este mensage ejecutando[m
+[33mayuda: "git config advice.addEmptyPathspec false"[m
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git add -[K.
+[?2004l[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git commit
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git commit-m
+[?2004lgit: 'commit-m' no es un comando de git. Mira 'git --help'.
+
+El comando más similar es
+	commit-tree
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git commit-m[K[K -m
+[?2004lerror: switch `m' requiere un valor
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ exec [K[K[K[K[Kcd ..
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ exec 0.1`p[K[K[K[K1.py
+[?2004lbash: exec: 01.py: no se encontró
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls
+[?2004l01.py       [0m[01;34mDescargas[0m   [01;34mPlantillas[0m                     Untitled1.ipynb  [01;34mvenv[0m
+01.txt      [01;34mDocumentos[0m  [01;34mprpa2223-2[0m                     Untitled2.ipynb  [01;34mVídeos[0m
+02.py       [01;34mEscritorio[0m  [01;34mPúblico[0m                        Untitled3.ipynb
+03.py       [01;34mImágenes[0m    [40;31;01mpyspark[0m                        Untitled4.ipynb
+04.py       [01;34mMúsica[0m      [01;34msnap[0m                           Untitled5.ipynb
+Decker.txt  os          [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m  Untitled.ipynb
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ 01.py [K[K[K[K[K[Kadd [K[K[K[Kcd prpa2223-2/
+[?2004l[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git add 01.py 09[K[K[K[K[K[K[K1.py
+[?2004lfatal: ruta especificada '01.py' no concordó con ningún archivo
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git add 01.py[K[K[K[K[K[K[K[K[K--[K[K../o1[K[K0
+01.py   01.txt  02.py   03.py   04.py   
+]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git ../01.py .. [K/p2[K[K02.py .. 03[K[K[K/[K/03.py ..0[K/04.py
+[?2004lgit: '../01.py' no es un comando de git. Mira 'git --help'.
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ cd
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls
+[?2004l01.py       [0m[01;34mDescargas[0m   [01;34mPlantillas[0m                     Untitled1.ipynb  [01;34mvenv[0m
+01.txt      [01;34mDocumentos[0m  [01;34mprpa2223-2[0m                     Untitled2.ipynb  [01;34mVídeos[0m
+02.py       [01;34mEscritorio[0m  [01;34mPúblico[0m                        Untitled3.ipynb
+03.py       [01;34mImágenes[0m    [40;31;01mpyspark[0m                        Untitled4.ipynb
+04.py       [01;34mMúsica[0m      [01;34msnap[0m                           Untitled5.ipynb
+Decker.txt  os          [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m  Untitled.ipynb
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ cd prpa2223-2/
+[?2004l[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ ls
+[?2004lREADME.md
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git add 01.py[K[K[K[K[K[K -[K..([K/p[K01.py
+[?2004lfatal: ../01.py: '../01.py' está fuera del repositorio en '/home/alumno/prpa2223-2'
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ mv ../p[K01.py /prp[K[K[K[K[K
+[?2004lmv: falta el operando archivo de destino después de '../01.py'
+Pruebe 'mv --help' para más información.
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ mv .[K--help
+[?2004lModo de empleo: mv [OPCIÓN]... ORIGEN DESTINO
+  o bien:  mv [OPCIÓN]... ORIGEN... DIRECTORIO
+  o bien:  mv [OPCIÓN]... -t DIRECTORIO ORIGEN...
+Renombra ORIGEN a DESTINO, o mueve ORIGEN(es) a DIRECTORIO.
+
+Los argumentos obligatorios para las opciones largas son también obligatorios
+para las opciones cortas.
+      --backup[=CONTROL]       crea una copia de seguridad antes de borrar
+  -b                           como --backup pero no acepta ningún argumento
+  -f, --force                  no pregunta nunca antes de sobreescribir
+  -i, --interactive            pide confirmación antes de sobreescribir
+      --strip-trailing-slashes  elimina todas las barras finales de cada
+                                  argumento ORIGEN
+  -S, --suffix=SUFIJO           reemplaza el sufijo de respaldo habitual
+  -t, --target-directory=DIRECTORIO  mueve todos los argumentos ORIGEN al
+                                       directorio DIRECTORIO
+  -T, --no-target-directory          trata DESTINO como fichero normal
+  -u, --update                       mueve solamente cuando el fichero ORIGEN
+                                       es más moderno que el fichero de destino,
+                                       o cuando falta el fichero de destino
+  -v, --verbose                      da detalles de lo que va haciendo
+  -Z, --context                establece el contexto de seguridad SELinux del fichero
+                                 de destino al tipo predeterminado
+      --help     muestra esta ayuda y finaliza
+      --version  informa de la versión y finaliza
+
+El sufijo de respaldo es '~', a menos que se establezca con --suffix o con
+SIMPLE_BACKUP_SUFFIX. El método de control de versión se puede seleccionar
+con la opción --backup o a través de la variable de entorno VERSION_CONTROL.
+Estos son los valores:
+
+  none, off       nunca realiza copias de seguridad (incluso si se da la
+                  opción --backup)
+  numbered, t     crea copias de seguridad numeradas
+  existing, nil   numeradas si existen copias de seguridad numeradas,
+                  simples en caso contrario
+  simple, never   siempre crea copias de seguridad simples
+
+ayuda en línea sobre GNU coreutils: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ m v[K[Kv --/[K[K[K.. [K[K[K0[K0.[K1.y[Kpy ../
+[?2004lmv: no se puede efectuar `stat' sobre '01.py': No existe el archivo o el directorio
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ ls ../&[K
+[?2004l01.py       [0m[01;34mDescargas[0m   [01;34mPlantillas[0m                     Untitled1.ipynb  [01;34mvenv[0m
+01.txt      [01;34mDocumentos[0m  [01;34mprpa2223-2[0m                     Untitled2.ipynb  [01;34mVídeos[0m
+02.py       [01;34mEscritorio[0m  [01;34mPúblico[0m                        Untitled3.ipynb
+03.py       [01;34mImágenes[0m    [40;31;01mpyspark[0m                        Untitled4.ipynb
+04.py       [01;34mMúsica[0m      [01;34msnap[0m                           Untitled5.ipynb
+Decker.txt  os          [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m  Untitled.ipynb
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git init
+[?2004lReinicializado el repositorio Git existente en /home/alumno/prpa2223-2/.git/
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git .[Kadd.[K .
+[?2004l[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ ls
+[?2004lREADME.md
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git add¡[K[K[K[Kci[Kommit .[K-m
+[?2004lerror: switch `m' requiere un valor
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git commit -m [K[K-[K, [K[Km ([K"decke[K[K[K[K[KDecker"
+[?2004lEn la rama main
+Tu rama está actualizada con 'origin/main'.
+
+nada para hacer commit, el árbol de trabajo está limpio
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ add . [K[K[K[K[K[Kgit add .py[K[K[K01[K[K[K ..0[K/01.[K.py
+[?2004lfatal: ../01.py: '../01.py' está fuera del repositorio en '/home/alumno/prpa2223-2'
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ cd.[K ..
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ mv 01.py 02.py 03.py 04.py /proc/[K[K[Kpa[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls 
+[?2004l01.py       [0m[01;34mDescargas[0m   [01;34mPlantillas[0m                     Untitled1.ipynb  [01;34mvenv[0m
+01.txt      [01;34mDocumentos[0m  [01;34mprpa2223-2[0m                     Untitled2.ipynb  [01;34mVídeos[0m
+02.py       [01;34mEscritorio[0m  [01;34mPúblico[0m                        Untitled3.ipynb
+03.py       [01;34mImágenes[0m    [40;31;01mpyspark[0m                        Untitled4.ipynb
+04.py       [01;34mMúsica[0m      [01;34msnap[0m                           Untitled5.ipynb
+Decker.txt  os          [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m  Untitled.ipynb
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls .l[K[K-l
+[?2004ltotal 294036
+-rw-rw-r-- 1 alumno alumno      1135 feb  9 09:31 01.py
+-rw-rw-r-- 1 alumno alumno         0 feb  9 09:39 01.txt
+-rw-rw-r-- 1 alumno alumno      1370 feb  9 09:31 02.py
+-rw-rw-r-- 1 alumno alumno      1454 feb  9 09:31 03.py
+-rw-rw-r-- 1 alumno alumno      1573 feb  9 09:31 04.py
+-rw-rw-r-- 1 alumno alumno     28672 feb  9 10:17 Decker.txt
+drwxr-xr-x 5 alumno alumno      4096 feb  9 09:33 [0m[01;34mDescargas[0m
+drwxr-xr-x 4 alumno alumno      4096 oct 26 18:04 [01;34mDocumentos[0m
+drwxr-xr-x 2 alumno alumno      4096 abr 28  2022 [01;34mEscritorio[0m
+drwxr-xr-x 3 alumno alumno      4096 may 24  2022 [01;34mImágenes[0m
+drwxr-xr-x 2 alumno alumno      4096 abr 26  2022 [01;34mMúsica[0m
+-rw-r--r-- 1 root   root           0 abr 26  2022 os
+drwxr-xr-x 2 alumno alumno      4096 abr 26  2022 [01;34mPlantillas[0m
+drwxrwxr-x 3 alumno alumno      4096 feb  9 09:55 [01;34mprpa2223-2[0m
+drwxr-xr-x 2 alumno alumno      4096 abr 26  2022 [01;34mPúblico[0m
+lrwxrwxrwx 1 root   root          25 abr 28  2022 [40;31;01mpyspark[0m -> [40;31;01m/opt/spark/python/pyspark[0m
+drwx------ 9 alumno alumno      4096 abr 28  2022 [01;34msnap[0m
+-rw-r--r-- 1 root   root   300971569 ene 20  2022 [01;31mspark-3.2.1-bin-hadoop3.2.tgz[0m
+-rw-rw-r-- 1 alumno alumno        72 abr 26  2022 Untitled1.ipynb
+-rw-rw-r-- 1 alumno alumno        72 abr 26  2022 Untitled2.ipynb
+-rw-rw-r-- 1 alumno alumno        72 abr 26  2022 Untitled3.ipynb
+-rw-rw-r-- 1 alumno alumno        72 abr 27  2022 Untitled4.ipynb
+-rw-rw-r-- 1 alumno alumno       766 may 23  2022 Untitled5.ipynb
+-rw-rw-r-- 1 alumno alumno        72 abr 26  2022 Untitled.ipynb
+drwxr-xr-x 5 root   root        4096 abr 26  2022 [01;34mvenv[0m
+drwxr-xr-x 2 alumno alumno      4096 abr 26  2022 [01;34mVídeos[0m
+[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ ls -l[Kcd ..git add ../01.pycd ..[K[2Pls [K[K[Kmv 01.py 02.py 03.py 04.py /prpa223[K23[K[K[K[K[K[K[K[K[K[K prpa2223-2/
+[?2004l[?2004h]0;alumno@aula452: ~[01;32malumno@aula452[00m:[01;34m~[00m$ /[Kcd prpa2223-2/
+[?2004l[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ ls
+[?2004l01.py  02.py  03.py  04.py  README.md
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git ii[K[Kadd .[K [K01.py 02.py 03.py 04.py 
+[?2004l[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git commit .[K-m "Decker[K[K[K[K[K[KCodigo d[KDecker[K[K[K[K[K[K[K[K[K[K[K[K[KAlgoritmo Decker"
+[?2004l[main 406e528] Algoritmo Decker
+ 4 files changed, 196 insertions(+)
+ create mode 100644 01.py
+ create mode 100644 02.py
+ create mode 100644 03.py
+ create mode 100644 04.py
+[?2004h]0;alumno@aula452: ~/prpa2223-2[01;32malumno@aula452[00m:[01;34m~/prpa2223-2[00m$ git push
+[?2004lEnumerando objetos: 7, listo.
+Contando objetos:  14% (1/7)Contando objetos:  28% (2/7)Contando objetos:  42% (3/7)Contando objetos:  57% (4/7)Contando objetos:  71% (5/7)Contando objetos:  85% (6/7)Contando objetos: 100% (7/7)Contando objetos: 100% (7/7), listo.
+Compresión delta usando hasta 12 hilos
+Comprimiendo objetos:  16% (1
